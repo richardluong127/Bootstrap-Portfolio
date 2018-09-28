@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 </head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Richard Luong</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
-        
-      </div>
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+      <div class="container" alt="namebox"> 
+          Richard Luong
+        </div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <div class="container-fluid" alt="pushlinkright"></div> 
+      <a class="nav-item nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Portfolio</a>
+      <a class="nav-item nav-link" href="#">Contact</a>
+
     </div>
-  </nav>
-
-  <div class="container">
-    About Me
   </div>
+</nav>-->
+
+<!--<nav class="navbar navbar-default" role="navigation">Richard Luong</nav>-->
+
+<table style="height: 100px;">
+    <tbody>
+      <tr>
+        <td class="align-baseline">Richard Luong</td>
+        <p class="text-right"><td class="align-top">
+          About | Portfolio | Contact
+        </td></p>
+        
+      </tr>
+    </tbody>
+  </table>
+
+<div class="container" alt="contentbox">
+  About Me
+
+
+
 
 <body>
-    
 
-<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-<div class="row">
-    <div class="col-12 col-md-8"> 
-        <img src="C:\Users\Administrator\Desktop\homework2\Bootstrap-Portfolio\images\Adventure.jpg" width="25%" height="25%" alt="Adventure" class="rounded"> 
+  <div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-12">
+        <img src="images/Adventure.jpg" alt="Adventure" class="rounded" class=".img-responsive" width="33%" height="100%">
+      </div>
     </div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
   </div>
-  
-  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-  <div class="row">
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  </div>
-  
-  <!-- Columns are always 50% wide, on mobile and desktop -->
-  <div class="row">
-    <div class="col-6">.col-6</div>
-    <div class="col-6">.col-6</div>
-  </div>
-
-
-
 </body>
+</div>
 </html>

@@ -1,0 +1,29 @@
+.containerAbout {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.navbar-default {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+.namebox {
+color: white;
+}
+
+.navbar {
+    color: white;
+}
+
+.contentbox {
+    width: 960px;
+}
