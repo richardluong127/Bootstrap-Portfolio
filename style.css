@@ -2,17 +2,35 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.textfont{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto ;
+    color: #777777;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    line-height: 180%;
+    padding-bottom: 0px;
+}
+
+.fontHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fontAbout {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#0fdfd4;
+}
 
 .navbar-brand {
     background-color: #4aaaa5;
     border-color: #4aaaa5;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar-default {
     background-color: #4aaaa5;
     border-color: #4aaaa5;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -26,4 +44,21 @@ color: white;
 
 .contentbox {
     width: 960px;
+    border: 25px;
+    border-color: #777777;
+    outline: 1px solid orange;
+    
+}
+
+.bigborder {
+   margin: 1px; 
+   padding: 1px; 
+   border: 1px;
+   color: #777777;
+   outline: 1px solid orange;
+}
+
+.text1 {
+    float: left;
+
 }
